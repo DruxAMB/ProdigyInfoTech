@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(31, 30, 30);
+} nav {
+    border: 3px solid green;
+    justify-content: space-around;
+    display: flex;
+    padding: 0.5rem;
+    background-color: green;
+    position: fixed;
+    top: 0;
+    width: 100%;
+} ul {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+} h1 {
+    color: white;
+} a {
+    text-decoration: none;
+    color: white;
+} a:hover {
+    text-decoration: underline;
+    color: rgb(204, 208, 211);
+} li {
+    list-style-type: none;
+    margin: auto;
+} section {
+    margin: 100vh 0;
+} section h1 {
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 600;
+}
